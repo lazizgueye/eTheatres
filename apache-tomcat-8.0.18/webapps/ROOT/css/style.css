@@ -1,0 +1,51 @@
+
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
+mark, rp, rt, ruby, summary, time{ display: inline }
+
+/* Global properties ======================================================== */
+
+body{ background: url(../images/iBody/zz.png) center 0 no-repeat #000; border:0; font:14px Arial, Helvetica, sans-serif; color:#7f7f7f; line-height:25px; min-width:960px;}
+.ic, .ic a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+.css3{border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; box-shadow: 0 0 4px rgba(0, 0, 0, .4); -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .4); -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .4); position: relative;}
+
+/* Global Structure ============================================================= */
+
+.main {	margin: 0 auto;	width: 960px; }
+
+.bg1{ background:url(../images/iBody/bg_menu.png) 0 0 repeat-x}
+
+/* ============================= main layout ====================== */
+
+a{ color:#7f7f7f; text-decoration: underline; outline:none}
+a:hover{ text-decoration: none}
+h1{ padding:35px 0 0 43px;}
+h2{ font-size:40px; color:white; line-height:1.2em; padding:20px 0 14px 0; letter-spacing:-3px; font-weight:400; margin-left:-2px;}
+h2#welcom{ font-size:61px; line-height:1.2em; padding:0 0 9px 0; letter-spacing:-5px; margin-left:-5px;}
+h2 strong{ font-weight:700; color:#7532a9;}
+h3{ font-size:30px; line-height:1.2em; color:#7532a9; padding:0 0 8px 0; font-weight:400; letter-spacing:-2px;}
+h4{ font-size:30px; color:#7532a9/*#7f7f7f*/; line-height:1.2em; font-weight:400; letter-spacing:-2px; padding:12px 0 11px 0}
+p{ padding-bottom:25px;}
+
+/* ============================= header ====================== */
+header{ height:205px;}
+
+
+#menu { width:100%; overflow:hidden; background:url(../images/iBody/menu_line.png) 0 0 no-repeat}
+#menu > li { float:left; text-align:center; padding-right:2px; background:url(../images/iBody/menu_line.png) right 0 no-repeat}
+#menu > li > a{align:center; display:block; width:158px; font-size:22px; color:#7f7f7f; text-decoration:none; text-align:center; height:60px; line-height:60px; letter-spacing:-1px;}
+#menu > li > a:hover, #menu > .active > a{ background:url(../images/iBody/menu_active.gif) top repeat-x; color:white}
+
+
+/* ================================================== */
+
+.box{background:url(../images/iBody/bg_content.png) repeat; padding:20px 46px 50px 49px; overflow:hidden}
+
+.dropcap_1{ float:left; margin-top:-4px; width:110px; height:95px; background:url(../images/iBody/bg_dropcap.png) 0 0 no-repeat; margin-right:7px; font-size:48px; color:#fff; line-height:1.2em; text-align:center; font-weight:bold; letter-spacing:-4px; padding-top:15px;}
+.dropcap_1 span{ display:block; font-size:19px; line-height:1.2em; font-weight:400; letter-spacing:-1px; margin-top:-11px}
+
+
+
+
+
+
